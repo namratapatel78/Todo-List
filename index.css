@@ -1,0 +1,78 @@
+body {
+  font-family: fantasy;
+  color: white;
+  background-color: pink;    
+}
+.todo-list {
+  display: flex;
+  min-height: 600px;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding-top: 40px;
+}
+header {
+  font-weight: bolder;
+  font-family: fantasy;
+  margin-bottom: 40px;
+}
+.container {
+  margin-top: 30px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* input style */
+input {
+  width: 300px;
+  height: 35px;
+  border: 1px solid pink;
+  padding: 0 20px;
+  background-color: black;
+  color: white;
+}
+.input {
+  border-radius: 20px;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: white;
+}
+.item-input {
+  margin-bottom: 2px;
+}
+
+/* checkbox style */
+.checkbox {
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+}
+.checkbox:checked {
+  background-color: pink;
+  color: black;
+}
+.line-through {
+  text-decoration: line-through;
+}
+
+/* button style */
+button {
+  height: 35px;
+  border-radius: 15px;
+  width: 70px;
+  background-color: black;
+  border: 1px solid pink;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+button:focus {
+  outline: none;
+}
+.edit-btn {
+  display: none;
+}
